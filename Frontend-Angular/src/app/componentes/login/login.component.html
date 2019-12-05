@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-3"></div>
+  <div class="col-6 align-self-center">
+    <form #loginForm="ngForm"(ngSubmit)="login()" ngNativeValidate>
+      <h2 class="title_form">Iniciar Sesión</h2>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter email" #correo="ngModel" name="correo"[(ngModel)]="usuario.correo"required>
+        <small id="emailHelp" class="form-text text-light">No compartiremos tu email con nadie.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" #password="ngModel" name="password"[(ngModel)]="usuario.password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Ingresar</button>
+    <div *ngIf="loginCorrecto" class="alert alert-success">
+      {{loginCorrecto}}
+    </div>
+    </form>
+  </div>
+  <div class="col-3"></div>
+</div>
+

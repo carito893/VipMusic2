@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background-image: url(assets/fondo_BIT-music.png);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    
+}
+.title_form{
+    color: #ff534F;
+}
+
+.card{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    background: none;
+    border:none;
+    color: white;
+    font-size: 25px;
+}
+
+.card-title{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    text-align: left;
+}
+
+form{
+    background-color: #343a40e5;
+    padding: 6%;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356); 
+    border-radius: 2%;
+    color: rgb(0, 255, 255);
+    max-width: 500px;
+}
+
+.btn{
+    background-color: rgba(44, 194, 181, 0.836);
+    font-size: 120%;
+    font-weight: bold;
+    border: none;
+}
+
+

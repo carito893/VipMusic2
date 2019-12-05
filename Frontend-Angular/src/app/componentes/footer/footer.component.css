@@ -1,0 +1,18 @@
+#footer{
+    background-color: #343a40!important;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    /* color: white; */
+    color:  rgb(0, 255, 255);
+}
+
+a .fab{
+    color: white;
+}
+
+.credits{
+    color: white;
+}

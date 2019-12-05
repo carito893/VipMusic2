@@ -1,0 +1,37 @@
+.rep_audio {
+    display: block;
+    text-align: center;
+}
+.player {
+    text-align: center;
+    padding: 1%;
+}
+.List_Rep {
+    text-align: center;
+}
+/* .container_list {
+    margin-inline: -5%;
+    padding: 0;
+} */
+
+.mainListaCanciones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.listaCanciones{
+        width: 60%;
+        
+}
+
+.list-group-item{
+    background-color: #343a40e5;
+    padding: 6%;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.356); 
+    border-radius: 2%;
+    color: rgb(0, 255, 255);
+    max-width: 500px;
+}

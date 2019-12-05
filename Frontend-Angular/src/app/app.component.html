@@ -1,0 +1,15 @@
+<nav class="navbar navbar-dark bg-dark">
+  <a [routerLink]="['']" class="navbar-brand"><img src="../assets/Logo BIT Music(1).png" alt="" width="15%"> </a>
+  <a [routerLink]="['/login']" class="ml-auto" *ngIf="!usuarioLogueado">
+    <i class="far fa-user"></i>
+    Iniciar Sesión
+  </a>
+  <a [routerLink]="" (click)="cerrarSesion()" class="ml-auto" *ngIf="usuarioLogueado">
+    <i class="far fa-user"></i>
+    Cerrar sesión
+  </a>
+</nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,15 @@
+.buttons_menu{
+    margin-top: 2%;
+    margin-left: 6%;
+}
+.btn-primary{
+    margin-right: 1%;
+}
+.player{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.row {
+    margin-bottom: 7%;
+}
